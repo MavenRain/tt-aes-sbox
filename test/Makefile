@@ -7,6 +7,7 @@ FST ?= -fst # Use more efficient FST format
 TOPLEVEL_LANG ?= verilog
 SRC_DIR = $(PWD)/../src
 PROJECT_SOURCES = project.v
+# Note: project.v contains module tt_um_aes_sbox
 
 ifneq ($(GATES),yes)
 
